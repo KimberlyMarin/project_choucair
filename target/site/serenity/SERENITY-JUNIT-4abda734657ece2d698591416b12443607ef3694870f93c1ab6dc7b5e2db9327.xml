@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Realizar la compra" skipped="0" tests="1" time="63.14" timestamp="2021-01-22 11:09:59"><testcase name="Compra de manera virtual"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by className: exclusive" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by className: exclusive</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by className: exclusive&#13;
+starter.stepdefinitions.SearchOnDuckDuckGoStepDefinitions.seleccionar_productos(SearchOnDuckDuckGoStepDefinitions.java:37)&#13;
+cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;
+cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;
+cucumber.runner.TestStep.run(TestStep.java:50)&#13;
+cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;
+cucumber.runner.TestCase.run(TestCase.java:46)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:50)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:208)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:66)&#13;
+</system-err></testcase></testsuite>
