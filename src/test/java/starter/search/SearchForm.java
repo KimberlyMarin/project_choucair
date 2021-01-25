@@ -19,7 +19,6 @@ public class SearchForm {
     public static By  PRICE = By.xpath("//*[contains(@class,'cart_total_price')]/td[contains(@id,'price')]");
     public static By  END_PAYMENT = By.xpath ("//*[contains(@class,'cart_navigation clearfix')]/a[contains(@class,'button btn btn-default standard-checkout button-medium')]");
     public static By UPDATE = By.xpath("//*[contains(@class,'address_update')]");
-    public static By  END_PAYMENT1 = By.xpath ("//*[contains(@class,'button btn btn-default button-medium')]')]");
-    public static By  END_PAYMENT2 = By.xpath ("//*[contains(@class,'button btn btn-default button-medium')]')]");
+    public static By  END_PAYMENT1 = By.xpath ("//*[contains(@class,'cart_navigation clearfix')]/a[contains(@class,'button btn btn-default standard-checkout button-medium')]");
 
 }
