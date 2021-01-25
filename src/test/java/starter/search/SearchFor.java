@@ -33,7 +33,7 @@ public class SearchFor {
                 Click.on(SearchForm.PRODUCT_WOMEN),
                 WaitUntil.the(SearchForm.ADD_TO_CARD, WebElementStateMatchers.isPresent()),
                 WaitUntil.the(SearchForm.ADD_TO_CARD, WebElementStateMatchers.isVisible()),
-        Click.on(SearchForm.ADD_TO_CARD),
+                 Click.on(SearchForm.ADD_TO_CARD),
                 Click.on(SearchForm.PROCESS_TO_CHECKOUT)
         ).with("term").of(term);
     }

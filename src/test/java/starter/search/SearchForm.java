@@ -13,5 +13,5 @@ public class SearchForm {
     public static By WOMEN_SUBMENU = By.ByClassName.className("subcategory-image");
     public static By PRODUCT_WOMEN = By.ByClassName.className("product-container");
     public static By ADD_TO_CARD = By.ByClassName.className("exclusive");
-    public static By PROCESS_TO_CHECKOUT = By.ByClassName.className("btn btn-default button button-medium");
+    public static By PROCESS_TO_CHECKOUT = By.xpath("//*[contains(@class,'button-container')]/*[contains(@rel,'nofollow')]");
 }
