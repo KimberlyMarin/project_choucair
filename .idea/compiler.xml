@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
-      <module name="project_choucair.main" target="1.8" />
-      <module name="project_choucair.test" target="1.8" />
+      <module name="project_choucair_main" target="1.8" />
+      <module name="project_choucair_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

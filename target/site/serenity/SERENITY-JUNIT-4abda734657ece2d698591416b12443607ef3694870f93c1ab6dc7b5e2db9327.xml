@@ -1,13 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Realizar la compra" skipped="0" tests="1" time="1.01" timestamp="2021-01-25 02:45:51"><testcase name="Compra de manera virtual"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
-starter.stepdefinitions.SearchOnDuckDuckGoStepDefinitions.ingresar_a_la_pagina(SearchOnDuckDuckGoStepDefinitions.java:31)
-cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
-cucumber.runner.TestStep.executeStep(TestStep.java:65)
-cucumber.runner.TestStep.run(TestStep.java:50)
-cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
-cucumber.runner.TestCase.run(TestCase.java:46)
-cucumber.runner.Runner.runPickle(Runner.java:50)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:208)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:66)
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Realizar la compra" skipped="0" tests="1" time="35.98" timestamp="2021-01-25 06:50:15"><testcase name="Compra de manera virtual"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@class,'cart_navigation clearfix')]/a[contains(@class,'button btn btn-default standard-checkout button-medium')]&quot;}&#10;  (Session info: chrome=88.0.4324.104)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-3H36VAS3', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\luism\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cee55ba86a26a379abde880acab66e1f&#10;*** Element info: {Using=xpath, value=//*[contains(@class,'cart_navigation clearfix')]/a[contains(@class,'button btn btn-default standard-checkout button-medium')]}" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'cart_navigation clearfix')]/a[contains(@class,'button btn btn-default standard-checkout button-medium')]"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3H36VAS3', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\luism\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee55ba86a26a379abde880acab66e1f
+*** Element info: {Using=xpath, value=//*[contains(@class,'cart_navigation clearfix')]/a[contains(@class,'button btn btn-default standard-checkout button-medium')]}</error><system-err>no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'cart_navigation clearfix')]/a[contains(@class,'button btn btn-default standard-checkout button-medium')]"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3H36VAS3', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\luism\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee55ba86a26a379abde880acab66e1f
+*** Element info: {Using=xpath, value=//*[contains(@class,'cart_navigation clearfix')]/a[contains(@class,'button btn btn-default standard-checkout button-medium')]}&#13;
+starter.stepdefinitions.SearchOnDuckDuckGoStepDefinitions.seleccionar_productos(SearchOnDuckDuckGoStepDefinitions.java:38)&#13;
+cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;
+cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;
+cucumber.runner.TestStep.run(TestStep.java:50)&#13;
+cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;
+cucumber.runner.TestCase.run(TestCase.java:46)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:50)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:208)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:66)&#13;
 </system-err></testcase></testsuite>
