@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import starter.navigation.NavigateTo;
 import starter.search.SearchFor;
 import starter.search.SearchResult;
+import starter.search.SearchSecoundPagesFor;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.*;
@@ -32,10 +33,11 @@ public class SearchOnDuckDuckGoStepDefinitions {
     }
 
     @When("^(.*) selecciona los productos")
-    public void seleccionar_productos(String term) {
+    public void seleccionar_productos(String term) throws InterruptedException {
 
         withCurrentActor(
-                SearchFor.term(term)
+                SearchFor.term(term),
+                SearchSecoundPagesFor.term(term)
         );
     }
 
