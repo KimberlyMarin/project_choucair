@@ -23,7 +23,15 @@ public class SearchSecoundPagesFor {
                 Scroll.to(SearchForm.PRICE),
                 Click.on(SearchForm.END_PAYMENT),
                 Scroll.to(SearchForm.UPDATE),
-                Click.on(SearchForm.END_PAYMENT1)
+                Click.on(SearchForm.END_PAYMENT1),
+                Scroll.to(SearchForm.CART_QUALITY),
+                Click.on(SearchForm.AGGRE),
+                Click.on(SearchForm.END_PAYMENT2),
+                Scroll.to(SearchForm.CART_QUALITY),
+                Click.on(SearchForm.PAYMENT_METHOD),
+                Scroll.to(SearchForm.CART_QUALITY),
+                Click.on(SearchForm.CONFIRM_ORDER),
+                Scroll.to(SearchForm.CART_QUALITY)
                 ).with("term").of(term);
     }
 

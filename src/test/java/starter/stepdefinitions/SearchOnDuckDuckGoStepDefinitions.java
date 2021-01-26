@@ -41,20 +41,11 @@ public class SearchOnDuckDuckGoStepDefinitions {
         );
     }
 
-    @Then("^(.*) deberia visualizar los productos agregados al carrito de compras")
-    public void all_the_result_titles_should_contain_the_word(String term) {
-        withCurrentActor(
-                Ensure.thatTheAnswersTo(SearchResult.titles())
-                        .allMatch("a title containing '" + term + "'",
-                                title -> title.toLowerCase().contains(term.toLowerCase()))
-
-        );
-
+    @Then("^(?:el|ella) deberia visualizar los productos agregados al carrito de compras")
+    public void all_the_result_titles_should_contain_the_word() {
         theActorInTheSpotlight().should(
                 seeThat("search result titles",
-                        SearchResult.titles(), hasSize(greaterThan(0))),
-                seeThat("search result titles",
-                        SearchResult.titles(), everyItem(containsIgnoringCase(term)))
+                        SearchResult.titles(), everyItem(containsIgnoringCase("BANK-WIRE PAYMENT")))
         );
     }
 }
