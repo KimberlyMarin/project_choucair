@@ -1,6 +1,5 @@
 package starter.search;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
 import org.openqa.selenium.By;
 
 public class SearchForm {
