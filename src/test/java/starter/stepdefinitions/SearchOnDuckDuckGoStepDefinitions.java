@@ -3,13 +3,9 @@ package starter.stepdefinitions;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import cucumber.api.java.eo.Se;
 import io.cucumber.java.en.Given;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import net.serenitybdd.screenplay.ensure.Ensure;
-import net.thucydides.core.annotations.Managed;
-import org.openqa.selenium.WebDriver;
 import starter.navigation.NavigateTo;
 import starter.search.SearchFor;
 import starter.search.SearchResult;
@@ -36,8 +32,8 @@ public class SearchOnDuckDuckGoStepDefinitions {
     public void seleccionar_productos(String term) throws InterruptedException {
 
         withCurrentActor(
-                SearchFor.term(term),
-                SearchSecoundPagesFor.term(term)
+                SearchFor.selectForProduct(term),
+                SearchSecoundPagesFor.paymentProccess(term)
         );
     }
 

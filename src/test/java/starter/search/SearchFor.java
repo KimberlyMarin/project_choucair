@@ -1,25 +1,16 @@
 package starter.search;
 
-import net.serenitybdd.core.pages.WebElementFacadeWait;
-import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.actions.*;
+import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.actions.Enter;
+import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
-import net.serenitybdd.screenplay.matchers.statematchers.IsPresentMatcher;
-import net.serenitybdd.screenplay.matchers.statematchers.IsVisibleMatcher;
-import net.serenitybdd.screenplay.questions.Enabled;
-import net.serenitybdd.screenplay.questions.WebElementQuestion;
-import net.serenitybdd.screenplay.waits.Wait;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-
-import java.beans.Visibility;
-
-import static org.hamcrest.CoreMatchers.is;
 
 public class SearchFor {
 
-    public static Performable term(String term) {
+    public static Performable selectForProduct(String term) {
 
         return Task.where("{0} attempts to search for #term",
                 Click.on(SearchForm.LOGIN_BUTTON),

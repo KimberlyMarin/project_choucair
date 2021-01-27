@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Set;
 
 public class SearchSecoundPagesFor {
-    public static Performable term(String term) throws InterruptedException {
+    public static Performable paymentProccess(String term) throws InterruptedException {
        // WebDriverWait wait = new WebDriverWait(driver, 12);
         return Task.where("{0} attempts to search for #term",
                 Click.on(SearchForm.ADD_TO_CARD),
