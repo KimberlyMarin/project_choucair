@@ -40,7 +40,7 @@ public class SearchOnDuckDuckGoStepDefinitions {
     @Then("^(?:el|ella) deberia visualizar los productos agregados al carrito de compras")
     public void all_the_result_titles_should_contain_the_word() {
         theActorInTheSpotlight().should(
-                seeThat("search result titles",
+                seeThat("mensaje de exito al realizar compra",
                         SearchResult.titles(), everyItem(containsIgnoringCase("BANK-WIRE PAYMENT")))
         );
     }
